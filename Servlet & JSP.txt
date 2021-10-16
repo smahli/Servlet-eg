@@ -1,0 +1,21 @@
+Java has Provided server side Technologies
+ 1. CGI(Common Gateway Interface It has disadvantages multithread was not implemented properly  therefore it was replaced by SERVLET )
+ 2. SERVLET(.java)
+ 3. JSP(Java Server Pages , Advance version of SERVLET)(.jsp)
+
+
+
+javax.servlet.Servlet Interface
+
+1. public abstract void init(javax.servlet.ServletConfig)
+2. public ServletConfig getServletConfig();
+3. public void 
+		service(javax.servlet.ServletRequest,
+		javax.servlet.ServletResponse)
+
+4. public abstract java.lang.String getServletInfo();
+5. public abstract void destroy();
+
+
+RequestDispatcher 
+	1. It is responsible for dispatcher the request to another resource it may be html, servlet or jsp.
