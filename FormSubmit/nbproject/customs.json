@@ -1,0 +1,16 @@
+{
+    "elements": {
+        "title": {}
+    },
+    "attributes": {
+        "charset": {
+            "context": "meta"
+        },
+        "name": {
+            "context": "meta"
+        },
+        "\"container\"": {
+            "context": "div"
+        }
+    }
+}
