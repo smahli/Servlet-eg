@@ -63,6 +63,34 @@ removeAttribute(String name)
 
 
 
+Session Tracking in Servlet
+
+1. Session Tracking is a way to main tain state(data ) of an user.
+
+2. It is also known as State management.
+
+
+Session Tracking Techniques
+
+	1. Cookies 
+	2. Hidden Form Field 
+	3.URL Rewriting 
+	4.HttpSession
+
+
+
+
+
+
+Why To Track State ?
+	problems occured seen in the program
+
+Solution 
+COOKIES IN SERVLET
+___________________
+
+Cookies are the textual information which are stored in the key value pair format to 
+the clients browser during multiple requests
 
 
 
