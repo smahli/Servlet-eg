@@ -19,3 +19,55 @@ javax.servlet.Servlet Interface
 
 RequestDispatcher 
 	1. It is responsible for dispatcher the request to another resource it may be html, servlet or jsp.
+
+
+
+Deployment Descriptor(web.xml): File that contains configuration of java application
+it resides in the WEB-INF folder
+
+<web-app>
+	servlet declaration
+	servlet-mapping
+	initializing parameter
+	welcome file config
+	filter
+	listener
+	session config
+	etc
+<web-app>
+
+
+Parameters and attributes in servlet
+_______________________________________
+
+
+	Parameters : those values which are provided by user to any servlet to process the request during the request opeartion.
+		Servlet only read that value for request processing 
+
+	Parameter mostly Data send using form, initialization parameternetc.
+	How to get initialization parameter:
+		String name = request.getParameter("name_of_your_parameter");
+	Now process you request
+
+
+
+Parameters: these are the objects that are attached by one servlet to object(session  request , config , contect etc ) and other 
+servlet can fetch that object to process to logic 
+
+servlet van easily modify add and remove the content of attribute when requird.
+
+How to perform operation with attributes:
+.setAttribute(String name,Object value)
+.Object value = getAttribute(String name)
+removeAttribute(String name)
+
+
+
+
+
+
+
+
+
+
+
