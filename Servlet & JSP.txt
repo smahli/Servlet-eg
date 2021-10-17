@@ -92,6 +92,15 @@ ___________________
 Cookies are the textual information which are stored in the key value pair format to 
 the clients browser during multiple requests
 
+How to use cookies in java 
+. In order to use cookies in java, there is a cookies class in java present in javax.servlet.http package
+. To make cookie just create a object of Cookie class and pass name and its value.
+
+
+How to add Cookie to response
+. To add cookie in response just use addcookie(cookie method of response interface.
+
+
 
 
 
