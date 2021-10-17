@@ -98,7 +98,7 @@ How to use cookies in java
 
 
 How to add Cookie to response
-. To add cookie in response just use addcookie(cookie method of response interface.
+. To add cookie in response just use addcookie(cookie method of response interface).
 
 
 
